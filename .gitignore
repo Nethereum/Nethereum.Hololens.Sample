@@ -7,11 +7,9 @@ Bin/
 UnityGenerated/
 Library/
 Assets/AssetStoreTools*
-App/
-UWP/
-project.json
 project.lock.json
-
+Players/
+Tools/
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
