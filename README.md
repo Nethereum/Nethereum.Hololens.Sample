@@ -1,4 +1,4 @@
-#Hololens sample
+# Hololens sample
 
 Very simple sample to demonstrate integration with Unity3d, UWP and Hololens.
 
@@ -7,6 +7,9 @@ Unity3d does not support (yet) the latest version of .net for scripting, but thi
 This project demonstrates how to enable this by using the [Origami sample](https://developer.microsoft.com/en-us/windows/holographic/holograms_101e) from the 101e on Holograms by Microsoft,
 and adding an script in which we will get the latest blockNumber.
 
-##Video sample
+## Video sample
 This video provides a quick overview of the structure, preprocessor directives and dlls necessary on the plugins folder to get this working.
 https://www.youtube.com/watch?v=2MXAWHTRw7E
+
+
+Note: in this sample, a special INFURA API key is used: `7238211010344719ad14a89db874158c`. If you wish to use this sample in your own project you’ll need to [sign up on INFURA](https://infura.io/register) and use your own key.
