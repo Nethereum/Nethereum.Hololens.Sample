@@ -20,7 +20,9 @@ public class BlockNumber : MonoBehaviour {
         {
             try
             {
-                var web3 = new Web3("https://morden.infura.io/aEcNY6wGN4KuEpoXQRxZ");
+
+                //Note: in this sample, a special INFURA API key is used: `7238211010344719ad14a89db874158c`. If you wish to use this sample in your own project you’ll need to [sign up on INFURA](https://infura.io/register) and use your own key.
+                var web3 = new Web3("https://goerli.infura.io/v3/7238211010344719ad14a89db874158c");
                 var blockNumber = web3.Eth.Blocks.GetBlockNumber.SendRequestAsync().Result;
                    GetComponent<TextMesh>().text = "Last block:" + blockNumber.Value.ToString();
                 LastTimeAccessed = DateTime.Now;
